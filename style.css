@@ -14,11 +14,6 @@ header {
     text-align: center;
 } */
 
-body {
-    display: grid;
-    grid-template-columns: 2fr;
-}
-
 img {
     width: 100%;
 }
@@ -54,4 +49,9 @@ li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+}
+
+h3, .container {
+    display: flex;
+    justify-content: center;
 }
