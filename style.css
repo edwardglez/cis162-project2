@@ -42,7 +42,6 @@ li a:hover {
 
 .container div {
     padding: 10px;
-    /* border: 1px solid #000; */
 }
 
 .header {
@@ -54,6 +53,7 @@ li a:hover {
     grid-row-end: 1.5;
     grid-column-start: 1;
     grid-column-end: 4;
+    
 }
 
 .footer {
@@ -66,10 +66,22 @@ li a:hover {
 .card {
     display: contents !important;
 }
+.card-img-top {
+    height: 250px;
+}
 
 p {
     text-align: center;
     font-size: 18px;
+}
+
+img {
+    transition: 0.4s ease-in;
+    width: 100%;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 /* Accordion */
